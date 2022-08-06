@@ -1,0 +1,18 @@
+H-Bonds Plugin, Version 1.1
+Sat Aug 06 19:28:43 CST 2022
+
+Parameters used in the calculation of hydrogen bonds:
+- Atomselection 1: (resid 7 and nucleic and fragment 1 and name N3)
+- Atomselection 2: ((resname CRW or waters) and name OW) and (within 3.5 of (resid 7 and nucleic and fragment 0 and name N3) or (resid 7 and nucleic and fragment 1 and name N3))
+- Update selections every frame: yes
+- Initial frame: 1
+- Frame step: 1
+- Final frame: 10001
+- Donor-Acceptor distance: 3.6
+- Angle cutoff: 30
+- Type: unique
+- Write a file with H bond/frame data: yes
+- Filename: hb2.dat
+- Details output file: hb2_detail.dat
+
+Printing frame/hbond data to file... Done.
